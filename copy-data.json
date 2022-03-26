@@ -1,0 +1,516 @@
+[
+  {
+    "id": "12042-2203310235--31734-0-12585-2203310445",
+    "options": [],
+    "legsArr": {
+      "id": "12042-2203310235--31734-0-12585-2203310445",
+      "origin_place_id": 12042,
+      "origin_place_name": "Baku Heydar Aliyev International",
+      "destination_place_id": 12585,
+      "destination_place_name": "Istanbul",
+      "departure": [
+        "2022-03-31",
+        "02:35:00"
+      ],
+      "arrival": [
+        "2022-03-31",
+        "04:45:00"
+      ],
+      "segment_ids": [
+        "12042-12585-2203310235-2203310445--31734"
+      ],
+      "duration": 190,
+      "stop_count": 0,
+      "stop_ids": [],
+      "segmentData": [
+        {
+          "origin_place_id": 12042,
+          "origin_place_name": "Baku Heydar Aliyev International",
+          "destination_place_id": 12585,
+          "destination_place_name": "Istanbul",
+          "arrival": [
+            "2022-03-31",
+            "04:45:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "02:35:00"
+          ],
+          "duration": 190,
+          "mode": "flight"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12042-2203310325--31939-1-12585-2203311200",
+    "options": [],
+    "legsArr": {
+      "id": "12042-2203310325--31939-1-12585-2203311200",
+      "origin_place_id": 12042,
+      "origin_place_name": "Baku Heydar Aliyev International",
+      "destination_place_id": 12585,
+      "destination_place_name": "Istanbul",
+      "departure": [
+        "2022-03-31",
+        "03:25:00"
+      ],
+      "arrival": [
+        "2022-03-31",
+        "12:00:00"
+      ],
+      "segment_ids": [
+        "12042-11089-2203310325-2203310510--31939",
+        "11089-12585-2203310745-2203311200--31939"
+      ],
+      "duration": 575,
+      "stop_count": 1,
+      "stop_ids": [
+        [
+          11089
+        ]
+      ],
+      "segmentData": [
+        {
+          "origin_place_id": 12042,
+          "origin_place_name": "Baku Heydar Aliyev International",
+          "destination_place_id": 11089,
+          "destination_place_name": "Hamad International",
+          "arrival": [
+            "2022-03-31",
+            "05:10:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "03:25:00"
+          ],
+          "duration": 165,
+          "mode": "flight"
+        },
+        {
+          "origin_place_id": 11089,
+          "origin_place_name": "Hamad International",
+          "destination_place_id": 12585,
+          "destination_place_name": "Istanbul",
+          "arrival": [
+            "2022-03-31",
+            "12:00:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "07:45:00"
+          ],
+          "duration": 255,
+          "mode": "flight"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12042-2203310850--32532-0-12585-2203311055",
+    "options": [],
+    "legsArr": {
+      "id": "12042-2203310850--32532-0-12585-2203311055",
+      "origin_place_id": 12042,
+      "origin_place_name": "Baku Heydar Aliyev International",
+      "destination_place_id": 12585,
+      "destination_place_name": "Istanbul",
+      "departure": [
+        "2022-03-31",
+        "08:50:00"
+      ],
+      "arrival": [
+        "2022-03-31",
+        "10:55:00"
+      ],
+      "segment_ids": [
+        "12042-12585-2203310850-2203311055--32532"
+      ],
+      "duration": 185,
+      "stop_count": 0,
+      "stop_ids": [],
+      "segmentData": [
+        {
+          "origin_place_id": 12042,
+          "origin_place_name": "Baku Heydar Aliyev International",
+          "destination_place_id": 12585,
+          "destination_place_name": "Istanbul",
+          "arrival": [
+            "2022-03-31",
+            "10:55:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "08:50:00"
+          ],
+          "duration": 185,
+          "mode": "flight"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12042-2203310655--31734-0-12585-2203310900",
+    "options": [],
+    "legsArr": {
+      "id": "12042-2203310655--31734-0-12585-2203310900",
+      "origin_place_id": 12042,
+      "origin_place_name": "Baku Heydar Aliyev International",
+      "destination_place_id": 12585,
+      "destination_place_name": "Istanbul",
+      "departure": [
+        "2022-03-31",
+        "06:55:00"
+      ],
+      "arrival": [
+        "2022-03-31",
+        "09:00:00"
+      ],
+      "segment_ids": [
+        "12042-12585-2203310655-2203310900--31734"
+      ],
+      "duration": 185,
+      "stop_count": 0,
+      "stop_ids": [],
+      "segmentData": [
+        {
+          "origin_place_id": 12042,
+          "origin_place_name": "Baku Heydar Aliyev International",
+          "destination_place_id": 12585,
+          "destination_place_name": "Istanbul",
+          "arrival": [
+            "2022-03-31",
+            "09:00:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "06:55:00"
+          ],
+          "duration": 185,
+          "mode": "flight"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12042-2203311145--31734-0-12585-2203311355",
+    "options": [],
+    "legsArr": {
+      "id": "12042-2203311145--31734-0-12585-2203311355",
+      "origin_place_id": 12042,
+      "origin_place_name": "Baku Heydar Aliyev International",
+      "destination_place_id": 12585,
+      "destination_place_name": "Istanbul",
+      "departure": [
+        "2022-03-31",
+        "11:45:00"
+      ],
+      "arrival": [
+        "2022-03-31",
+        "13:55:00"
+      ],
+      "segment_ids": [
+        "12042-12585-2203311145-2203311355--31734"
+      ],
+      "duration": 190,
+      "stop_count": 0,
+      "stop_ids": [],
+      "segmentData": [
+        {
+          "origin_place_id": 12042,
+          "origin_place_name": "Baku Heydar Aliyev International",
+          "destination_place_id": 12585,
+          "destination_place_name": "Istanbul",
+          "arrival": [
+            "2022-03-31",
+            "13:55:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "11:45:00"
+          ],
+          "duration": 190,
+          "mode": "flight"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12042-2203311030--30943,-31734-1-12585-2203311555",
+    "options": [],
+    "legsArr": {
+      "id": "12042-2203311030--30943,-31734-1-12585-2203311555",
+      "origin_place_id": 12042,
+      "origin_place_name": "Baku Heydar Aliyev International",
+      "destination_place_id": 12585,
+      "destination_place_name": "Istanbul",
+      "departure": [
+        "2022-03-31",
+        "10:30:00"
+      ],
+      "arrival": [
+        "2022-03-31",
+        "15:55:00"
+      ],
+      "segment_ids": [
+        "12042-11389-2203311030-2203311200--30943",
+        "11389-12585-2203311445-2203311555--31734"
+      ],
+      "duration": 385,
+      "stop_count": 1,
+      "stop_ids": [
+        [
+          11389
+        ]
+      ],
+      "segmentData": [
+        {
+          "origin_place_id": 12042,
+          "origin_place_name": "Baku Heydar Aliyev International",
+          "destination_place_id": 11389,
+          "destination_place_name": "Ankara Esenboga",
+          "arrival": [
+            "2022-03-31",
+            "12:00:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "10:30:00"
+          ],
+          "duration": 150,
+          "mode": "flight"
+        },
+        {
+          "origin_place_id": 11389,
+          "origin_place_name": "Ankara Esenboga",
+          "destination_place_id": 12585,
+          "destination_place_name": "Istanbul",
+          "arrival": [
+            "2022-03-31",
+            "15:55:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "14:45:00"
+          ],
+          "duration": 70,
+          "mode": "flight"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12042-2203310730--32532,-31734-1-12585-2203312025",
+    "options": [],
+    "legsArr": {
+      "id": "12042-2203310730--32532,-31734-1-12585-2203312025",
+      "origin_place_id": 12042,
+      "origin_place_name": "Baku Heydar Aliyev International",
+      "destination_place_id": 12585,
+      "destination_place_name": "Istanbul",
+      "departure": [
+        "2022-03-31",
+        "07:30:00"
+      ],
+      "arrival": [
+        "2022-03-31",
+        "20:25:00"
+      ],
+      "segment_ids": [
+        "12042-12055-2203310730-2203310930--32532",
+        "12055-12585-2203311900-2203312025--31734"
+      ],
+      "duration": 835,
+      "stop_count": 1,
+      "stop_ids": [
+        [
+          12055
+        ]
+      ],
+      "segmentData": [
+        {
+          "origin_place_id": 12042,
+          "origin_place_name": "Baku Heydar Aliyev International",
+          "destination_place_id": 12055,
+          "destination_place_name": "Gazipasa Alanya",
+          "arrival": [
+            "2022-03-31",
+            "09:30:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "07:30:00"
+          ],
+          "duration": 180,
+          "mode": "flight"
+        },
+        {
+          "origin_place_id": 12055,
+          "origin_place_name": "Gazipasa Alanya",
+          "destination_place_id": 12585,
+          "destination_place_name": "Istanbul",
+          "arrival": [
+            "2022-03-31",
+            "20:25:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "19:00:00"
+          ],
+          "duration": 85,
+          "mode": "flight"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12042-2203311030--32532,-31734-1-12585-2203311555",
+    "options": [],
+    "legsArr": {
+      "id": "12042-2203311030--32532,-31734-1-12585-2203311555",
+      "origin_place_id": 12042,
+      "origin_place_name": "Baku Heydar Aliyev International",
+      "destination_place_id": 12585,
+      "destination_place_name": "Istanbul",
+      "departure": [
+        "2022-03-31",
+        "10:30:00"
+      ],
+      "arrival": [
+        "2022-03-31",
+        "15:55:00"
+      ],
+      "segment_ids": [
+        "12042-11389-2203311030-2203311200--32532",
+        "11389-12585-2203311445-2203311555--31734"
+      ],
+      "duration": 385,
+      "stop_count": 1,
+      "stop_ids": [
+        [
+          11389
+        ]
+      ],
+      "segmentData": [
+        {
+          "origin_place_id": 11389,
+          "origin_place_name": "Ankara Esenboga",
+          "destination_place_id": 12585,
+          "destination_place_name": "Istanbul",
+          "arrival": [
+            "2022-03-31",
+            "15:55:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "14:45:00"
+          ],
+          "duration": 70,
+          "mode": "flight"
+        },
+        {
+          "origin_place_id": 12042,
+          "origin_place_name": "Baku Heydar Aliyev International",
+          "destination_place_id": 11389,
+          "destination_place_name": "Ankara Esenboga",
+          "arrival": [
+            "2022-03-31",
+            "12:00:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "10:30:00"
+          ],
+          "duration": 150,
+          "mode": "flight"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12042-2203311920--32532-0-12585-2203312125",
+    "options": [],
+    "legsArr": {
+      "id": "12042-2203311920--32532-0-12585-2203312125",
+      "origin_place_id": 12042,
+      "origin_place_name": "Baku Heydar Aliyev International",
+      "destination_place_id": 12585,
+      "destination_place_name": "Istanbul",
+      "departure": [
+        "2022-03-31",
+        "19:20:00"
+      ],
+      "arrival": [
+        "2022-03-31",
+        "21:25:00"
+      ],
+      "segment_ids": [
+        "12042-12585-2203311920-2203312125--32532"
+      ],
+      "duration": 185,
+      "stop_count": 0,
+      "stop_ids": [],
+      "segmentData": [
+        {
+          "origin_place_id": 12042,
+          "origin_place_name": "Baku Heydar Aliyev International",
+          "destination_place_id": 12585,
+          "destination_place_name": "Istanbul",
+          "arrival": [
+            "2022-03-31",
+            "21:25:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "19:20:00"
+          ],
+          "duration": 185,
+          "mode": "flight"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12042-2203312145--31734-0-12585-2203312355",
+    "options": [],
+    "legsArr": {
+      "id": "12042-2203312145--31734-0-12585-2203312355",
+      "origin_place_id": 12042,
+      "origin_place_name": "Baku Heydar Aliyev International",
+      "destination_place_id": 12585,
+      "destination_place_name": "Istanbul",
+      "departure": [
+        "2022-03-31",
+        "21:45:00"
+      ],
+      "arrival": [
+        "2022-03-31",
+        "23:55:00"
+      ],
+      "segment_ids": [
+        "12042-12585-2203312145-2203312355--31734"
+      ],
+      "duration": 190,
+      "stop_count": 0,
+      "stop_ids": [],
+      "segmentData": [
+        {
+          "origin_place_id": 12042,
+          "origin_place_name": "Baku Heydar Aliyev International",
+          "destination_place_id": 12585,
+          "destination_place_name": "Istanbul",
+          "arrival": [
+            "2022-03-31",
+            "23:55:00"
+          ],
+          "departure": [
+            "2022-03-31",
+            "21:45:00"
+          ],
+          "duration": 190,
+          "mode": "flight"
+        }
+      ]
+    }
+  }
+]
