@@ -71,8 +71,8 @@ const url = 'https://www.skyscanner.net/';
                                     origin_place_name: segment_original_place_name,
                                     destination_place_id: segments[index].destination_place_id,
                                     destination_place_name: segment_destination_place_name,
-                                    arrival: segments[index].arrival.split('T'),
                                     departure: segments[index].departure.split('T'),
+                                    arrival: segments[index].arrival.split('T'),
                                     duration: segments[index].duration,
                                     mode: segments[index].mode
                                 })
@@ -100,54 +100,23 @@ const url = 'https://www.skyscanner.net/';
         let options = [];
         for await (let index of Object.keys(pricingOptions)) {
 
-            /*
-                        const items = pricingOptions[index]['items'];
-                        for await (let key of Object.keys(items)) {
-                            let itemAgentName;
-                            for await (let index of Object.keys(agents)) {
-                                if (items[key].agent_id === agents[index].id) {
-                                    itemAgentName = agents[index].name
-                                }
-                            }
+            const items = pricingOptions[index]['items'];
+            for await (let key of Object.keys(items)) {
 
-                            let segmentArr = []
-                            const segmentIds = items[key].segment_ids
-                            for await (let key of Object.keys(segments)) {
-                                for await (let index of Object.keys(segmentIds)) {
-                                    if (segments[key].id === segmentIds[index]) {
-
-                                        let segment_original_place_name;
-                                        let segment_destination_place_name;
-                                        for await (let index of Object.keys(places)) {
-                                            if (segments[key]?.origin_place_id === places[index]?.id) {
-                                                segment_original_place_name = places[key]?.name
-                                            }
-                                            if (segments[key]?.destination_place_id === places[index]?.id) {
-                                                segment_destination_place_name = places[index]?.name
-                                            }
-                                        }
-                                        segmentArr = {
-                                            arrival: segments[key].arrival.split('T'),
-                                            departure: segments[key].departure.split('T'),
-                                            segment_origin_place_id: segments[key].origin_place_id,
-                                            segment_destination_place_id: segments[key].destination_place_id,
-                                            segment_origin_place_name: segment_original_place_name,
-                                            segment_destination_place_name: segment_destination_place_name
-                                        }
-                                    }
-                                }
-
-                            }
-                            options = {
-                                agentIds: pricingOptions[index].agent_ids,
-                                mainPrice: pricingOptions[index].price.amount,
-                                // itemAgentId: items[key]['agent_id'],
-                                itemAgentName: itemAgentName,
-                                itemPrice: items[key]['price']['amount'],
-                                segmentArr
-                            }
-                        }
-                        */
+                let itemAgentName;
+                for await (let index of Object.keys(agents)) {
+                    if (items[key].agent_id === agents[index].id) {
+                        itemAgentName = agents[index].name
+                    }
+                }
+                options = {
+                    agentIds: pricingOptions[index].agent_ids,
+                    mainPrice: pricingOptions[index].price.amount,
+                    itemAgentId: items[key]['agent_id'],
+                    itemAgentName: itemAgentName,
+                    itemPrice: items[key]['price']['amount'],
+                }
+            }
 
         }
 
